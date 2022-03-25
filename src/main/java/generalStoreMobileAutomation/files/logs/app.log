@@ -1,0 +1,85 @@
+2022-03-25 16:35:36 INFO  GeneralStoreBase:31 - Getting locators.properties filepath
+2022-03-25 16:35:36 INFO  GeneralStoreBase:33 - Getting testData.properties filepath
+2022-03-25 16:35:36 INFO  GeneralStoreBase:35 - Creating properties object for locators file
+2022-03-25 16:35:36 INFO  GeneralStoreBase:37 - Creating properties object for testdata file
+2022-03-25 16:35:36 INFO  GeneralStoreBase:39 - Setting desired capabilities..
+2022-03-25 16:35:36 INFO  GeneralStoreBase:41 - Device name: PixelXLTiramisuEmulator
+2022-03-25 16:35:36 INFO  GeneralStoreBase:43 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-25 16:35:36 INFO  GeneralStoreBase:45 - Automation Name: uiautomator2
+2022-03-25 16:35:36 INFO  GeneralStoreBase:47 - New Command TimeOut: 14
+2022-03-25 16:35:36 INFO  GeneralStoreBase:50 - Creating Android Driver object
+2022-03-25 16:35:36 INFO  GeneralStoreBase:51 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-25 16:35:45 INFO  GeneralStoreBase:53 - Setting implicit wait
+2022-03-25 16:35:45 INFO  LoginTest:13 - Entering Name
+2022-03-25 16:35:49 INFO  LoginTest:15 - Hiding Keyboard
+2022-03-25 16:35:49 INFO  LoginTest:17 - Clicking textbox
+2022-03-25 16:35:50 INFO  LoginTest:19 - Clicking country dropdown
+2022-03-25 16:35:50 INFO  LoginTest:21 - Scrolling to the country name
+2022-03-25 16:35:56 INFO  LoginTest:23 - Clicking on the country name
+2022-03-25 16:35:57 INFO  LoginTest:25 - Clicking on Let's shop
+2022-03-25 16:35:57 INFO  ProductsVisibilityTest:14 - Verifying that the page contains products
+2022-03-25 16:35:59 INFO  ProductsVisibilityTest:17 - Page contains products for purchase
+2022-03-25 16:35:59 INFO  AddingProductToCartTest:19 - Searching and adding the products into the cart
+2022-03-25 16:36:00 INFO  AddingProductToCartTest:22 - Opening the cart
+2022-03-25 16:36:01 INFO  AddingProductToCartTest:24 - Verifying that the added products in the cart are same as the user's choice
+2022-03-25 16:36:02 INFO  PriceValidationTest:16 - Calculating the total price of two chosen products
+2022-03-25 16:36:02 INFO  PriceValidationTest:22 - Total price of chosen products: 280.97
+2022-03-25 16:36:02 INFO  PriceValidationTest:23 - Getting the actual total price displayed
+2022-03-25 16:36:02 INFO  PriceValidationTest:27 - Total price displayed: 280.97
+2022-03-25 16:36:02 INFO  PriceValidationTest:28 - Verifying the actual and expected total price of the chosen products..
+2022-03-25 16:36:02 INFO  PriceValidationTest:30 - Price Matched
+2022-03-25 16:36:02 INFO  PaymentPageNavigationTest:14 - Tapping on product updates checkbox
+2022-03-25 16:36:03 INFO  PaymentPageNavigationTest:16 - Long pressing to open Terms & Conditions
+2022-03-25 16:36:07 INFO  PaymentPageNavigationTest:18 - Closing Terms & Conditions
+2022-03-25 16:36:07 INFO  PaymentPageNavigationTest:20 - Clicking on Proceed button
+2022-03-25 16:36:08 INFO  PaymentPageNavigationTest:22 - Verifying the page is rendered in web using context handles.
+2022-03-25 16:36:10 INFO  GeneralStoreBase:63 - Closing the app
+2022-03-25 16:40:04 INFO  GeneralStoreBase:31 - Getting locators.properties filepath
+2022-03-25 16:40:04 INFO  GeneralStoreBase:33 - Getting testData.properties filepath
+2022-03-25 16:40:04 INFO  GeneralStoreBase:35 - Creating properties object for locators file
+2022-03-25 16:40:04 INFO  GeneralStoreBase:37 - Creating properties object for testdata file
+2022-03-25 16:40:04 INFO  GeneralStoreBase:39 - Setting desired capabilities..
+2022-03-25 16:40:04 INFO  GeneralStoreBase:41 - Device name: PixelXLTiramisuEmulator
+2022-03-25 16:40:04 INFO  GeneralStoreBase:43 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-25 16:40:04 INFO  GeneralStoreBase:45 - Automation Name: uiautomator2
+2022-03-25 16:40:04 INFO  GeneralStoreBase:47 - New Command TimeOut: 14
+2022-03-25 16:40:04 INFO  GeneralStoreBase:50 - Creating Android Driver object
+2022-03-25 16:40:04 INFO  GeneralStoreBase:51 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-25 16:42:20 INFO  GeneralStoreBase:31 - Getting locators.properties filepath
+2022-03-25 16:42:20 INFO  GeneralStoreBase:33 - Getting testData.properties filepath
+2022-03-25 16:42:20 INFO  GeneralStoreBase:35 - Creating properties object for locators file
+2022-03-25 16:42:20 INFO  GeneralStoreBase:37 - Creating properties object for testdata file
+2022-03-25 16:42:20 INFO  GeneralStoreBase:39 - Setting desired capabilities..
+2022-03-25 16:42:20 INFO  GeneralStoreBase:41 - Device name: PixelXLTiramisuEmulator
+2022-03-25 16:42:20 INFO  GeneralStoreBase:43 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-25 16:42:20 INFO  GeneralStoreBase:45 - Automation Name: uiautomator2
+2022-03-25 16:42:20 INFO  GeneralStoreBase:47 - New Command TimeOut: 14
+2022-03-25 16:42:20 INFO  GeneralStoreBase:50 - Creating Android Driver object
+2022-03-25 16:42:20 INFO  GeneralStoreBase:51 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-25 16:42:29 INFO  GeneralStoreBase:53 - Setting implicit wait
+2022-03-25 16:42:29 INFO  LoginTest:13 - Entering Name
+2022-03-25 16:42:33 INFO  LoginTest:15 - Hiding Keyboard
+2022-03-25 16:42:33 INFO  LoginTest:17 - Clicking textbox
+2022-03-25 16:42:34 INFO  LoginTest:19 - Clicking country dropdown
+2022-03-25 16:42:35 INFO  LoginTest:21 - Scrolling to the country name
+2022-03-25 16:42:40 INFO  LoginTest:23 - Clicking on the country name
+2022-03-25 16:42:41 INFO  LoginTest:25 - Clicking on Let's shop
+2022-03-25 16:42:41 INFO  ProductsVisibilityTest:14 - Verifying that the page contains products
+2022-03-25 16:42:42 INFO  ProductsVisibilityTest:17 - Page contains products for purchase
+2022-03-25 16:42:42 INFO  AddingProductToCartTest:19 - Searching and adding the products into the cart
+2022-03-25 16:42:44 INFO  AddingProductToCartTest:22 - Opening the cart
+2022-03-25 16:42:44 INFO  AddingProductToCartTest:24 - Verifying that the added products in the cart are same as the user's choice
+2022-03-25 16:42:44 INFO  AddingProductToCartTest:30 - Products Matched
+2022-03-25 16:42:44 INFO  AddingProductToCartTest:30 - Products Matched
+2022-03-25 16:42:45 INFO  PriceValidationTest:16 - Calculating the total price of two chosen products
+2022-03-25 16:42:45 INFO  PriceValidationTest:22 - Total price of chosen products: 280.97
+2022-03-25 16:42:45 INFO  PriceValidationTest:23 - Getting the actual total price displayed
+2022-03-25 16:42:45 INFO  PriceValidationTest:27 - Total price displayed: 280.97
+2022-03-25 16:42:45 INFO  PriceValidationTest:28 - Verifying the actual and expected total price of the chosen products..
+2022-03-25 16:42:45 INFO  PriceValidationTest:30 - Price Matched
+2022-03-25 16:42:45 INFO  PaymentPageNavigationTest:14 - Tapping on product updates checkbox
+2022-03-25 16:42:45 INFO  PaymentPageNavigationTest:16 - Long pressing to open Terms & Conditions
+2022-03-25 16:42:50 INFO  PaymentPageNavigationTest:18 - Closing Terms & Conditions
+2022-03-25 16:42:50 INFO  PaymentPageNavigationTest:20 - Clicking on Proceed button
+2022-03-25 16:42:51 INFO  PaymentPageNavigationTest:22 - Verifying the page is rendered in web using context handles.
+2022-03-25 16:42:55 INFO  GeneralStoreBase:63 - Closing the app

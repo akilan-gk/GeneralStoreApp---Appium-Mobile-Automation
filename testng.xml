@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="General Store Automation">
+    <test name="Login Test">
+        <classes>
+            <class name="generalStoreMobileAutomation.testScripts.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Product Visibility Test">
+        <classes>
+            <class name="generalStoreMobileAutomation.testScripts.ProductsVisibilityTest"/>
+        </classes>
+    </test>
+    <test name="Adding Product To Cart Test">
+        <classes>
+            <class name="generalStoreMobileAutomation.testScripts.AddingProductToCartTest"/>
+        </classes>
+    </test>
+    <test name="Product Total Price Test">
+        <classes>
+            <class name="generalStoreMobileAutomation.testScripts.PriceValidationTest"/>
+        </classes>
+    </test>
+    <test name="Payment Page Navigation Test">
+        <classes>
+            <class name="generalStoreMobileAutomation.testScripts.PaymentPageNavigationTest"/>
+        </classes>
+    </test>
+</suite>
