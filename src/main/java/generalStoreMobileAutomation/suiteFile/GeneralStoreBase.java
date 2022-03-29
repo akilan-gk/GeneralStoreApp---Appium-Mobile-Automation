@@ -4,6 +4,7 @@ import generalStoreMobileAutomation.reUsables.ActionReUsables;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -19,6 +20,7 @@ import java.util.Properties;
 
 public class GeneralStoreBase {
     static Logger logger = Logger.getLogger(GeneralStoreBase.class);
+    public static AppiumDriverLocalService service;
     public static AndroidDriver<AndroidElement> driver;
     public String locatorsFilePath;
     public String testDataFilePath;
@@ -28,13 +30,17 @@ public class GeneralStoreBase {
     @BeforeSuite
     public void setCapabilities() {
         configureLog4j();
+        logger.info("Starting Emulator");
+        startEmulator();
+        logger.info("Starting Appium Server");
+        startAppiumServer();
         logger.info("Getting locators.properties filepath");
         locatorsFilePath = filesPath() + "locators.properties";
         logger.info("Getting testData.properties filepath");
         testDataFilePath = filesPath() + "testData.properties";
         logger.info("Creating properties object for locators file");
         locatorsPropertyObject = getPropertyObject(locatorsFilePath);
-        logger.info("Creating properties object for testdata file");
+        logger.info("Creating properties object for testData file");
         testDataPropertyObject = getPropertyObject(testDataFilePath);
         logger.info("Setting desired capabilities..");
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -62,6 +68,8 @@ public class GeneralStoreBase {
     public void tearDown() {
         logger.info("Closing the app");
         driver.closeApp();
+        logger.info("Stopping Appium Server");
+        stopAppiumServer();
     }
 
     public String filesPath() {
@@ -78,8 +86,11 @@ public class GeneralStoreBase {
                 pathSeparator + "java" + pathSeparator + "generalStoreMobileAutomation" + pathSeparator + "files" + pathSeparator + "log4j.properties";
     }
 
-    public void configureLog4j() {
-        PropertyConfigurator.configure(log4jFilesPath());
+    public String batFilePath() {
+        String userWorkingDirectory = System.getProperty("user.dir");
+        String pathSeparator = System.getProperty("file.separator");
+        return userWorkingDirectory + pathSeparator + "src" + pathSeparator + "main" +
+                pathSeparator + "java" + pathSeparator + "generalStoreMobileAutomation" + pathSeparator + "files" + pathSeparator + "startEmulator.bat";
     }
 
     public Properties getPropertyObject(String filePath) {
@@ -93,5 +104,27 @@ public class GeneralStoreBase {
             System.out.println("Check the file in the specified path.");
         }
         return property;
+    }
+
+    public void startAppiumServer() {
+        service = AppiumDriverLocalService.buildDefaultService();
+        service.start();
+    }
+
+    public void stopAppiumServer() {
+        service.stop();
+    }
+
+    public void startEmulator() {
+        try {
+            Runtime.getRuntime().exec(batFilePath());
+            Thread.sleep(30000);
+        } catch (IOException | InterruptedException exception) {
+            logger.info("Check the file in the specified path");
+        }
+    }
+
+    public void configureLog4j() {
+        PropertyConfigurator.configure(log4jFilesPath());
     }
 }
