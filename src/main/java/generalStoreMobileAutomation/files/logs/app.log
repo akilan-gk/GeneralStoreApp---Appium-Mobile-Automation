@@ -694,3 +694,151 @@
 2022-03-29 12:42:29 INFO  PaymentPageNavigationTest:22 - Verifying the page is rendered in web using context handles.
 2022-03-29 12:42:30 INFO  GeneralStoreBase:69 - Closing the app
 2022-03-29 12:42:30 INFO  GeneralStoreBase:71 - Stopping Appium Server
+2022-03-29 15:31:49 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 15:32:19 INFO  GeneralStoreBase:35 - Starting Appium Server
+2022-03-29 15:32:24 INFO  GeneralStoreBase:37 - Getting locators.properties filepath
+2022-03-29 15:32:24 INFO  GeneralStoreBase:39 - Getting testData.properties filepath
+2022-03-29 15:32:24 INFO  GeneralStoreBase:41 - Creating properties object for locators file
+2022-03-29 15:32:24 INFO  GeneralStoreBase:43 - Creating properties object for testData file
+2022-03-29 15:32:24 INFO  GeneralStoreBase:45 - Setting desired capabilities..
+2022-03-29 15:32:24 INFO  GeneralStoreBase:47 - Device name: PixelXL
+2022-03-29 15:32:24 INFO  GeneralStoreBase:50 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-29 15:32:24 INFO  GeneralStoreBase:52 - Automation Name: uiautomator2
+2022-03-29 15:32:24 INFO  GeneralStoreBase:54 - New Command TimeOut: 14
+2022-03-29 15:32:24 INFO  GeneralStoreBase:57 - Creating Android Driver object
+2022-03-29 15:32:24 INFO  GeneralStoreBase:58 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-29 15:36:27 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 15:36:57 INFO  GeneralStoreBase:35 - Starting Appium Server
+2022-03-29 15:37:00 INFO  GeneralStoreBase:37 - Getting locators.properties filepath
+2022-03-29 15:37:00 INFO  GeneralStoreBase:39 - Getting testData.properties filepath
+2022-03-29 15:37:00 INFO  GeneralStoreBase:41 - Creating properties object for locators file
+2022-03-29 15:37:00 INFO  GeneralStoreBase:43 - Creating properties object for testData file
+2022-03-29 15:37:00 INFO  GeneralStoreBase:45 - Setting desired capabilities..
+2022-03-29 15:37:00 INFO  GeneralStoreBase:47 - Device name: PixelXL
+2022-03-29 15:37:00 INFO  GeneralStoreBase:50 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-29 15:37:00 INFO  GeneralStoreBase:52 - Automation Name: uiautomator2
+2022-03-29 15:37:00 INFO  GeneralStoreBase:54 - New Command TimeOut: 14
+2022-03-29 15:37:00 INFO  GeneralStoreBase:57 - Creating Android Driver object
+2022-03-29 15:37:00 INFO  GeneralStoreBase:58 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-29 15:39:37 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 15:40:29 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 15:40:59 INFO  GeneralStoreBase:35 - Starting Appium Server
+2022-03-29 15:41:01 INFO  GeneralStoreBase:37 - Getting locators.properties filepath
+2022-03-29 15:41:01 INFO  GeneralStoreBase:39 - Getting testData.properties filepath
+2022-03-29 15:41:01 INFO  GeneralStoreBase:41 - Creating properties object for locators file
+2022-03-29 15:41:01 INFO  GeneralStoreBase:43 - Creating properties object for testData file
+2022-03-29 15:41:01 INFO  GeneralStoreBase:45 - Setting desired capabilities..
+2022-03-29 15:41:01 INFO  GeneralStoreBase:47 - Device name: PixelXL
+2022-03-29 15:41:01 INFO  GeneralStoreBase:49 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-29 15:41:01 INFO  GeneralStoreBase:51 - Automation Name: uiautomator2
+2022-03-29 15:41:01 INFO  GeneralStoreBase:53 - New Command TimeOut: 14
+2022-03-29 15:41:01 INFO  GeneralStoreBase:56 - Creating Android Driver object
+2022-03-29 15:41:01 INFO  GeneralStoreBase:57 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-29 16:11:36 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 16:12:06 INFO  GeneralStoreBase:35 - Starting Appium Server
+2022-03-29 16:12:10 INFO  GeneralStoreBase:37 - Getting locators.properties filepath
+2022-03-29 16:12:10 INFO  GeneralStoreBase:39 - Getting testData.properties filepath
+2022-03-29 16:12:10 INFO  GeneralStoreBase:41 - Creating properties object for locators file
+2022-03-29 16:12:10 INFO  GeneralStoreBase:43 - Creating properties object for testData file
+2022-03-29 16:12:10 INFO  GeneralStoreBase:45 - Setting desired capabilities..
+2022-03-29 16:12:10 INFO  GeneralStoreBase:47 - Device name: PixelXL
+2022-03-29 16:12:10 INFO  GeneralStoreBase:49 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-29 16:12:10 INFO  GeneralStoreBase:51 - Automation Name: uiautomator2
+2022-03-29 16:12:10 INFO  GeneralStoreBase:53 - New Command TimeOut: 14
+2022-03-29 16:12:10 INFO  GeneralStoreBase:56 - Creating Android Driver object
+2022-03-29 16:12:10 INFO  GeneralStoreBase:57 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-29 16:12:24 INFO  GeneralStoreBase:59 - Setting implicit wait
+2022-03-29 16:12:24 INFO  LoginTest:13 - Entering Name
+2022-03-29 16:12:28 INFO  LoginTest:15 - Hiding Keyboard
+2022-03-29 16:12:29 INFO  LoginTest:17 - Clicking textbox
+2022-03-29 16:12:30 INFO  LoginTest:19 - Clicking country dropdown
+2022-03-29 16:12:31 INFO  LoginTest:21 - Scrolling to the country name
+2022-03-29 16:12:36 INFO  LoginTest:23 - Clicking on the country name
+2022-03-29 16:12:37 INFO  LoginTest:25 - Clicking on Let's shop
+2022-03-29 16:12:38 INFO  ProductsVisibilityTest:14 - Verifying that the page contains products
+2022-03-29 16:12:38 INFO  ProductsVisibilityTest:17 - Page contains products for purchase
+2022-03-29 16:12:38 INFO  AddingProductToCartTest:20 - Searching and adding the products into the cart
+2022-03-29 16:12:40 INFO  AddingProductToCartTest:23 - Opening the cart
+2022-03-29 16:12:40 INFO  AddingProductToCartTest:25 - Verifying that the added products in the cart are same as the user's choice
+2022-03-29 16:12:41 INFO  AddingProductToCartTest:32 - .
+2022-03-29 16:12:41 INFO  PriceValidationTest:16 - Calculating the total price of two chosen products
+2022-03-29 16:12:41 INFO  PriceValidationTest:22 - Total price of chosen products: 280.97
+2022-03-29 16:12:41 INFO  PriceValidationTest:23 - Getting the actual total price displayed
+2022-03-29 16:12:42 INFO  PriceValidationTest:27 - Total price displayed: 280.97
+2022-03-29 16:12:42 INFO  PriceValidationTest:28 - Verifying the actual and expected total price of the chosen products..
+2022-03-29 16:12:42 INFO  PriceValidationTest:30 - Price Matched
+2022-03-29 16:12:42 INFO  PaymentPageNavigationTest:14 - Tapping on product updates checkbox
+2022-03-29 16:12:42 INFO  PaymentPageNavigationTest:16 - Long pressing to open Terms & Conditions
+2022-03-29 16:12:46 INFO  PaymentPageNavigationTest:18 - Closing Terms & Conditions
+2022-03-29 16:12:46 INFO  PaymentPageNavigationTest:20 - Clicking on Proceed button
+2022-03-29 16:12:47 INFO  PaymentPageNavigationTest:22 - Verifying the page is rendered in web using context handles.
+2022-03-29 16:12:47 INFO  GeneralStoreBase:69 - Closing the app
+2022-03-29 16:12:47 INFO  GeneralStoreBase:71 - Stopping Appium Server
+2022-03-29 16:19:16 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 16:19:46 INFO  GeneralStoreBase:35 - Starting Appium Server
+2022-03-29 16:19:50 INFO  GeneralStoreBase:37 - Getting locators.properties filepath
+2022-03-29 16:19:50 INFO  GeneralStoreBase:39 - Getting testData.properties filepath
+2022-03-29 16:19:50 INFO  GeneralStoreBase:41 - Creating properties object for locators file
+2022-03-29 16:19:50 INFO  GeneralStoreBase:43 - Creating properties object for testData file
+2022-03-29 16:19:50 INFO  GeneralStoreBase:45 - Setting desired capabilities..
+2022-03-29 16:19:50 INFO  GeneralStoreBase:47 - Device name: PixelXL
+2022-03-29 16:19:50 INFO  GeneralStoreBase:49 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-29 16:19:50 INFO  GeneralStoreBase:51 - Automation Name: uiautomator2
+2022-03-29 16:19:50 INFO  GeneralStoreBase:53 - New Command TimeOut: 14
+2022-03-29 16:19:50 INFO  GeneralStoreBase:56 - Creating Android Driver object
+2022-03-29 16:19:50 INFO  GeneralStoreBase:57 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-29 16:23:28 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 16:28:43 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 16:29:18 INFO  GeneralStoreBase:35 - Starting Appium Server
+2022-03-29 16:29:22 INFO  GeneralStoreBase:37 - Getting locators.properties filepath
+2022-03-29 16:29:22 INFO  GeneralStoreBase:39 - Getting testData.properties filepath
+2022-03-29 16:29:22 INFO  GeneralStoreBase:41 - Creating properties object for locators file
+2022-03-29 16:29:22 INFO  GeneralStoreBase:43 - Creating properties object for testData file
+2022-03-29 16:29:22 INFO  GeneralStoreBase:45 - Setting desired capabilities..
+2022-03-29 16:29:22 INFO  GeneralStoreBase:47 - Device name: PixelXL
+2022-03-29 16:29:22 INFO  GeneralStoreBase:49 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-29 16:29:22 INFO  GeneralStoreBase:51 - Automation Name: uiautomator2
+2022-03-29 16:29:22 INFO  GeneralStoreBase:53 - New Command TimeOut: 14
+2022-03-29 16:29:22 INFO  GeneralStoreBase:56 - Creating Android Driver object
+2022-03-29 16:29:22 INFO  GeneralStoreBase:57 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-29 16:39:04 INFO  GeneralStoreBase:33 - Starting Emulator
+2022-03-29 16:39:39 INFO  GeneralStoreBase:35 - Starting Appium Server
+2022-03-29 16:39:46 INFO  GeneralStoreBase:37 - Getting locators.properties filepath
+2022-03-29 16:39:46 INFO  GeneralStoreBase:39 - Getting testData.properties filepath
+2022-03-29 16:39:46 INFO  GeneralStoreBase:41 - Creating properties object for locators file
+2022-03-29 16:39:46 INFO  GeneralStoreBase:43 - Creating properties object for testData file
+2022-03-29 16:39:46 INFO  GeneralStoreBase:45 - Setting desired capabilities..
+2022-03-29 16:39:46 INFO  GeneralStoreBase:47 - Device name: PixelXL
+2022-03-29 16:39:46 INFO  GeneralStoreBase:49 - App filePath: C:\Users\akilan.kanagarajan\falconWebAutomation\AppiumLearningProject\src\main\java\generalStoreMobileAutomation\apkFile\General-Store.apk
+2022-03-29 16:39:46 INFO  GeneralStoreBase:51 - Automation Name: uiautomator2
+2022-03-29 16:39:46 INFO  GeneralStoreBase:53 - New Command TimeOut: 14
+2022-03-29 16:39:46 INFO  GeneralStoreBase:56 - Creating Android Driver object
+2022-03-29 16:39:46 INFO  GeneralStoreBase:57 - Port Url: http://127.0.0.1:4723/wd/hub
+2022-03-29 16:40:20 INFO  GeneralStoreBase:59 - Setting implicit wait
+2022-03-29 16:40:20 INFO  LoginTest:13 - Entering Name
+2022-03-29 16:40:24 INFO  LoginTest:15 - Hiding Keyboard
+2022-03-29 16:40:25 INFO  LoginTest:17 - Clicking textbox
+2022-03-29 16:40:25 INFO  LoginTest:19 - Clicking country dropdown
+2022-03-29 16:40:26 INFO  LoginTest:21 - Scrolling to the country name
+2022-03-29 16:40:31 INFO  LoginTest:23 - Clicking on the country name
+2022-03-29 16:40:32 INFO  LoginTest:25 - Clicking on Let's shop
+2022-03-29 16:40:32 INFO  ProductsVisibilityTest:14 - Verifying that the page contains products
+2022-03-29 16:40:34 INFO  ProductsVisibilityTest:17 - Page contains products for purchase
+2022-03-29 16:40:34 INFO  AddingProductToCartTest:20 - Searching and adding the products into the cart
+2022-03-29 16:40:35 INFO  AddingProductToCartTest:23 - Opening the cart
+2022-03-29 16:40:35 INFO  AddingProductToCartTest:25 - Verifying that the added products in the cart are same as the user's choice
+2022-03-29 16:40:38 INFO  AddingProductToCartTest:38 - Products Matched
+2022-03-29 16:40:38 INFO  AddingProductToCartTest:38 - Products Matched
+2022-03-29 16:40:38 INFO  PriceValidationTest:16 - Calculating the total price of two chosen products
+2022-03-29 16:40:39 INFO  PriceValidationTest:22 - Total price of chosen products: 280.97
+2022-03-29 16:40:39 INFO  PriceValidationTest:23 - Getting the actual total price displayed
+2022-03-29 16:40:39 INFO  PriceValidationTest:27 - Total price displayed: 280.97
+2022-03-29 16:40:39 INFO  PriceValidationTest:28 - Verifying the actual and expected total price of the chosen products..
+2022-03-29 16:40:39 INFO  PriceValidationTest:30 - Price Matched
+2022-03-29 16:40:39 INFO  PaymentPageNavigationTest:14 - Tapping on product updates checkbox
+2022-03-29 16:40:39 INFO  PaymentPageNavigationTest:16 - Long pressing to open Terms & Conditions
+2022-03-29 16:40:43 INFO  PaymentPageNavigationTest:18 - Closing Terms & Conditions
+2022-03-29 16:40:44 INFO  PaymentPageNavigationTest:20 - Clicking on Proceed button
+2022-03-29 16:40:44 INFO  PaymentPageNavigationTest:22 - Verifying the page is rendered in web using context handles.
+2022-03-29 16:40:45 INFO  GeneralStoreBase:69 - Closing the app
+2022-03-29 16:40:45 INFO  GeneralStoreBase:71 - Stopping Appium Server

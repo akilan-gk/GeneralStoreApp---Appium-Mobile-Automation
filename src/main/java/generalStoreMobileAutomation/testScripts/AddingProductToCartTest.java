@@ -14,7 +14,7 @@ public class AddingProductToCartTest extends GeneralStoreBase {
     static Logger logger = Logger.getLogger(AddingProductToCartTest.class);
 
     @Test
-    public void testAddingProductToCart() {
+    public void testAddingProductToCart() throws InterruptedException {
         String productOne = testDataPropertyObject.getProperty("productOne");
         String productTwo = testDataPropertyObject.getProperty("productTwo");
         logger.info("Searching and adding the products into the cart");
@@ -23,6 +23,7 @@ public class AddingProductToCartTest extends GeneralStoreBase {
         logger.info("Opening the cart");
         ActionReUsables.click(ActionReUsables.findElement(driver, "ID", locatorsPropertyObject.getProperty("cart")));
         logger.info("Verifying that the added products in the cart are same as the user's choice");
+        Thread.sleep(3000);
         List<AndroidElement> productNameElements = ActionReUsables.findElements(driver, "ID", locatorsPropertyObject.getProperty("productNames"));
         for (AndroidElement product : productNameElements) {
             String name = null;

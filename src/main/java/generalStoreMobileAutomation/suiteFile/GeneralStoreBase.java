@@ -118,7 +118,7 @@ public class GeneralStoreBase {
     public void startEmulator() {
         try {
             Runtime.getRuntime().exec(batFilePath());
-            Thread.sleep(30000);
+            Thread.sleep(35000);
         } catch (IOException | InterruptedException exception) {
             logger.info("Check the file in the specified path");
         }
